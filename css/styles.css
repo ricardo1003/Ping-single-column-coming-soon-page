@@ -6,19 +6,103 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
+main{
+    margin: 5rem auto;
+    box-sizing: border-box;
+    padding: 3rem;
+    text-align: center;
+}
+h2{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+h2 span{
+    color: black;
+    font-weight: 700;
+}
+main> p{
+    font-size: .75em;
+}
+form{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button{
+    padding: .75rem 2rem;
+    border-radius: 100px;
+    
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+input{
+    border: 2px solid hsl(223, 100%, 88%);
+}
+input::placeholder{
+    color: hsl(223, 100%, 88%);
+}
+button{
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    box-shadow: 0px 5px 10px hsla(223, 87%, 63%, 0.5);
+}
+main> picture{
+    margin-bottom: 10rem;
+    display: block;
+    transform: scale(1.125);
 
-
-
-
-
-
-
-
-
-
-
-
-
+    -webkit-transform: scale(1.125);
+    -moz-transform: scale(1.125);
+    -ms-transform: scale(1.125);
+    -o-transform: scale(1.125);
+}
+aside picture{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+aside picture div{
+    width: 20px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 100px;
+    
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+aside picture :first-child{
+    background: url("../images/icon-facebook.svg");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+aside picture :nth-child(2){
+    background: url("../images/icon-twitter.svg");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+aside picture :last-child{
+    background: url("../images/icon-instagram.svg");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+img{
+    max-width: 100%;
+}
+aside p{
+    font-size: .625em;
+    color: hsl(0, 0%, 59%);
+}
 
 
 
