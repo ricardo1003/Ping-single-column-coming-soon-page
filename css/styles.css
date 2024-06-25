@@ -29,6 +29,7 @@ main> p{
 }
 form{
     margin-bottom: 5rem;
+    position: relative;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -113,38 +114,31 @@ aside p{
     font-size: .625em;
     color: hsl(0, 0%, 59%);
 }
+label{
+    display: none;
+}
+.invalidForm{
+    gap: 0;
+}
+.invalidInput{
+    border: 2px solid hsl(354, 100%, 66%);
+}
+.invalidInput::placeholder{
+    color: hsla(354, 100%, 66%, 0.5);
+}
+.invalidLabel{
+    display: inline;
+    margin-bottom: 10px;
+    padding-left: 2.25rem;
+    color: hsl(354, 100%, 66%);
+    font-size: .5em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 @media only screen and (max-width: 633px){
     h2{
         font-size: 1.3em;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
