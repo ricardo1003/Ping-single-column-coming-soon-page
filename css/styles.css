@@ -117,9 +117,6 @@ aside p{
 label{
     display: none;
 }
-.invalidForm{
-    gap: 0;
-}
 .invalidInput{
     border: 2px solid hsl(354, 100%, 66%);
 }
@@ -127,6 +124,8 @@ label{
     color: hsla(354, 100%, 66%, 0.5);
 }
 .invalidLabel{
+    position: absolute;
+    top: -1.25em;
     display: inline;
     margin-bottom: 10px;
     padding-left: 2.25rem;
