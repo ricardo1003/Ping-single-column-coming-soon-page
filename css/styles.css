@@ -55,6 +55,14 @@ button{
     background-color: hsl(223, 87%, 63%);
     color: white;
     box-shadow: 0px 5px 10px hsla(223, 87%, 63%, 0.5);
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+button:hover{
+    background-color: hsl(223, 87%, 73%);
 }
 main> picture{
     margin-bottom: 10rem;
